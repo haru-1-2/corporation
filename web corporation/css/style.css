@@ -45,8 +45,14 @@ header {
 	background-color: rgba(255, 255, 255, .8);
 }
 
-.header-logo {
-	margin-left: 24.25%;
+.header-inner {
+	width: 1050px;
+	margin: 0 auto;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 }
 
 .header-logo a img {
@@ -58,7 +64,6 @@ header {
 .header-nav {
 	display: flex;
 	align-items: center;
-	margin-right: 24.05%;
 }
 
 .header-nav li {
