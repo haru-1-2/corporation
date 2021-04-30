@@ -94,8 +94,13 @@ header {
 }
 
 .greeting-img {
-	width: 100%;
+	display: inline;
+}
+
+.greeting-img img {
+	width: 16.4%;
 	height: auto;
+	min-width: 300px;
 }
 
 .greeting-sentence {
