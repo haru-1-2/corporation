@@ -32,7 +32,7 @@ a {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%;
-	height: 100vh;
+	height: 450px;
 }
 
 header {
@@ -87,8 +87,10 @@ header {
 }
 
 /* greeting */
-.greeting {
-	display: flex;
+.greeting-inner {
+	 width: 900px;
+    margin: 0 auto;
+    display: flex;
 	align-items: center;
 	justify-content: center;
 }
