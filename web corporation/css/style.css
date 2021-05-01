@@ -150,10 +150,15 @@ header {
 	font-weight: bold;
 	border-bottom: 2px solid #ccc;
 	padding-bottom: 12px;
+	position: relative;
 }
 
-.news-contents h2::after {
-	width: 14.28%;
+.news-contents h2::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 60px;
 	border-bottom: 2px solid #55a0b2;
 }
 
@@ -161,23 +166,27 @@ header {
 	margin-top: 40px;
 }
 
+.news-contents dl a {
+	display: block;
+	border-bottom: 1px dotted #ccc;
+}
 .news-contents dl dt {
 	padding: 15px 0;
 	font-size: 1.5rem;
 	color: #000;
+	line-height: 1.68;
+}
+
+.news-contents dl a {
+	display: flex;
 }
 
 .news-contents dl dd {
 	padding: 15px 0;
-	border-bottom: 1px dotted #ccc;
 	margin-left: 30px;
 	font-size: 1.5rem;
 	line-height: 1.68;
 	color: #55aac6;
-}
-
-.news-contents dl dt {
-	float: left;
 }
 
 /* construction */
