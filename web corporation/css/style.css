@@ -260,28 +260,28 @@ footer {
 	color: #fff;
 }
 
-/* hamburger */
-.hamburger {
+/* breadcrumb */
+.breadcrumb {
 	width: 1050px;
 	margin: 0 auto;
 }
 
-.hamburger-wrap {
+.breadcrumb-wrap {
 	display: flex;
 	align-items: center;
 }
 
-.hamburger-wrap a {
+.breadcrumb-wrap a {
 	font-size: 1.2rem;
 	margin-right: 7px;
 	color: #333;
 }
 
-.hamburger-wrap a:last-child {
+.breadcrumb-wrap a:last-child {
 	margin-right: 0;
 }
 
-.hamburger-wrap p {
+.breadcrumb-wrap p {
 	font-size: 1.2rem;
 	margin-right: 7px;
 }
@@ -404,6 +404,7 @@ footer {
 
 table {
 	margin-top: 37px;
+	border-collapse: collapse;
 }
 
 tr {
@@ -411,6 +412,7 @@ tr {
 }
 
 th {
+	border: 1px solid #ccc;
 	width: 200px;
 	height: auto;
 	padding: 25px 0;
@@ -425,6 +427,7 @@ td {
 	padding: 25px 0;
 	font-size: 1.6rem;
 	padding-left: 40px;
+	width: 500px;
 }
 
 
