@@ -317,7 +317,9 @@ footer {
 	width: 900px;
 	height: auto;
 	background-color: #fff;
-	margin: 0 auto;
+	position: relative;
+	margin: -20px auto 0;
+	z-index: 10;
 }
 
 .privacy-contents-box {
@@ -375,7 +377,9 @@ footer {
 	width: 900px;
 	height: auto;
 	background-color: #fff;
-	margin: 0 auto;
+	position: relative;
+	margin: -20px auto 0;
+	z-index: 10;
 }
 
 .company-contents-box {
